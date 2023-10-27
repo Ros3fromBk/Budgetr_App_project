@@ -5,6 +5,7 @@ app.get('/', (req, res) => {
     res.send("Welcome to Rose Made Budgetr App");
 })
 
+app.get('/')
 
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
